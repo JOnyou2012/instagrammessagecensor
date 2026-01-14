@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Message Censor Options</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <main>
+    <h1>Banned words</h1>
+    <p class="desc">One word or phrase per line. Messages containing any will be blocked before sending.</p>
+    <textarea id="words" rows="12" placeholder="badword1\nbadword2"></textarea>
+    <div class="actions">
+      <button id="save">Save</button>
+      <span id="status"></span>
+    </div>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>
